@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
   name = 'RAE',
-  packages = find_packages(where='src'),
-  package_dir={'': 'src'}
+  packages = find_packages(where='src/RAE'),
+  package_dir={'': 'src/RAE'}
   version = '0.1',
   license='MIT',
   description = 'An installable version of RAE',
