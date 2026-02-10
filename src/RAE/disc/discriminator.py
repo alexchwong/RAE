@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import torch
 
-from .dinodisc import DinoDisc
+from RAE.disc.dinodisc import DinoDisc
 
 
 class DinoDiscriminator(DinoDisc):

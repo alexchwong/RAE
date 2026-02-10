@@ -10,7 +10,7 @@ from torchvision import transforms
 from torchvision.datasets import ImageFolder
 from pathlib import Path
 from copy import deepcopy
-from .dist_utils import setup_distributed
+from RAE.utils.dist_utils import setup_distributed
 
 
 

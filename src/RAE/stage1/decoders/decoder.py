@@ -24,7 +24,7 @@ import numpy as np
 import torch
 from torch import nn
 # correct the above import to the following
-from .utils import ViTMAEConfig, ACT2FN, ModelOutput
+from RAE.stage1.decoders.utils import ViTMAEConfig, ACT2FN, ModelOutput
 from transformers.modeling_outputs import BaseModelOutput
 
 @dataclass

@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
-from .decoders import GeneralDecoder
-from .encoders import ARCHS
+from RAE.stage1.decoders import GeneralDecoder
+from RAE.stage1.encoders import ARCHS
 from transformers import AutoConfig, AutoImageProcessor
 from typing import Optional
 from math import sqrt

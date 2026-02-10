@@ -4,9 +4,9 @@ import logging
 
 import enum
 
-from . import path
-from .utils import EasyDict, log_state, mean_flat
-from .integrators import ode, sde
+from RAE.stage2.transport import path
+from RAE.stage2.transport.utils import EasyDict, log_state, mean_flat
+from RAE.stage2.transport.integrators import ode, sde
 
 class ModelType(enum.Enum):
     """

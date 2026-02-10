@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 
 from torch_fidelity import calculate_metrics
-from .utils import ImgArrDataset
+from RAE.eval.utils import ImgArrDataset
 
 from torch_fidelity.feature_extractor_inceptionv3 import FeatureExtractorInceptionV3  # original torch-fidelity :contentReference[oaicite:2]{index=2}
 import scipy.linalg

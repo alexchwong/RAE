@@ -9,7 +9,7 @@ from torchmetrics.functional.image.ssim import structural_similarity_index_measu
 import os
 import sys
 from pathlib import Path
-from .utils import LPIPS, to_torch_tensor
+from RAE.eval.utils import LPIPS, to_torch_tensor
 
 @torch.no_grad()
 def calculate_psnr(arr1, arr2, bs, device="cuda", disable_bar: bool = True) -> float:

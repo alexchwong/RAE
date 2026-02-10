@@ -14,7 +14,7 @@ current_dir = Path(__file__).resolve().parent
 parent_dir = current_dir.parent
 if str(parent_dir) not in sys.path:
     sys.path.insert(0, str(parent_dir))
-from disc.lpips_utils import get_ckpt_path
+from RAE.disc.lpips_utils import get_ckpt_path
 
 def normalize_tensor(x, eps=1e-10):
     norm_factor = torch.sqrt(torch.sum(x**2, dim=1, keepdim=True))

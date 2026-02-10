@@ -1,9 +1,9 @@
 import torch
 
-from .diffaug import DiffAug
-from .discriminator import DinoDiscriminator
-from .gan_loss import hinge_d_loss, vanilla_d_loss, vanilla_g_loss
-from .lpips import LPIPS
+from RAE.disc.diffaug import DiffAug
+from RAE.disc.discriminator import DinoDiscriminator
+from RAE.disc.gan_loss import hinge_d_loss, vanilla_d_loss, vanilla_g_loss
+from RAE.disc.lpips import LPIPS
 
 
 def build_discriminator(

@@ -9,7 +9,7 @@ import torch
 import torch.nn as nn
 from torchvision import models
 
-from .lpips_utils import get_ckpt_path
+from RAE.disc.lpips_utils import get_ckpt_path
 
 
 class ScalingLayer(nn.Module):

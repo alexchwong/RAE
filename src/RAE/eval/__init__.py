@@ -1,5 +1,5 @@
-from .ref_iqa import calculate_psnr, calculate_lpips, calculate_ssim
-from .fid import calculate_rfid, calculate_gfid
+from RAE.eval.ref_iqa import calculate_psnr, calculate_lpips, calculate_ssim
+from RAE.eval.fid import calculate_rfid, calculate_gfid
 import numpy as np
 import torch
 import numpy as np

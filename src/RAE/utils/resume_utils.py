@@ -4,7 +4,7 @@ from omegaconf import OmegaConf
 import logging
 from typing import Optional, Tuple
 import shutil
-from .wandb_utils import initialize, create_logger
+from RAE.utils.wandb_utils import initialize, create_logger
 import logging
 
 def configure_experiment_dirs(args, rank) -> Tuple[str, str, logging.Logger]:

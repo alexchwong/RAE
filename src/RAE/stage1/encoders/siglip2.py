@@ -1,7 +1,7 @@
 from torch import nn
 import torch
 from math import *
-from . import register_encoder
+from RAE.stage1.encoders import register_encoder
 from transformers import SiglipModel
 
 @register_encoder()
